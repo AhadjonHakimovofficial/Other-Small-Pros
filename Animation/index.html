@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation haqida ma'lumot</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>CSS-da @keyframes va animation bilan bog‘liq barcha xususiyatlar animatsiyalarni yaratish va boshqarish uchun ishlatiladi. Keling, ularning har birini ko‘rib chiqamiz:
+
+    1. @keyframes
+    Bu qoidani ishlatib, animatsiyaning ketma-ket kadrlarini belgilash mumkin.
+    Format:
+    
+    css
+    Copy
+    Edit
+    @keyframes animation-name {
+      from {
+        /* Boshlang‘ich holat */
+      }
+      to {
+        /* Oxirgi holat */
+      }
+    }
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100px);
+      }
+    }
+    2. animation-name
+    Animatsiyaning nomini belgilaydi (bu nom @keyframes da berilgan nom bilan bir xil bo‘lishi kerak).
+    Format:
+    
+    css
+    Copy
+    Edit
+    animation-name: slide;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-name: slide;
+    }
+    3. animation-duration
+    Animatsiyaning davomiyligini belgilaydi (millisekund yoki sekundlarda).
+    Format:
+    
+    css
+    Copy
+    Edit
+    animation-duration: 2s;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-duration: 2s;
+    }
+    4. animation-delay
+    Animatsiyaning boshlanishidan oldin qancha vaqt kutish kerakligini belgilaydi.
+    Format:
+    
+    css
+    Copy
+    Edit
+    animation-delay: 1s;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-delay: 1s;
+    }
+    5. animation-iteration-count
+    Animatsiya necha marta takrorlanishini belgilaydi.
+    
+    infinite — cheksiz takrorlanadi
+    Format:
+    css
+    Copy
+    Edit
+    animation-iteration-count: 3; /* yoki infinite */
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-iteration-count: infinite;
+    }
+    6. animation-direction
+    Animatsiyaning yo‘nalishini belgilaydi.
+    Qiymatlar:
+    
+    normal – odatiy tartibda
+    reverse – teskari tartibda
+    alternate – navbati bilan oldinga va orqaga
+    alternate-reverse – teskari navbat bilan
+    Format:
+    css
+    Copy
+    Edit
+    animation-direction: alternate;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-direction: alternate;
+    }
+    7. animation-timing-function
+    Animatsiya tezligini boshqaradi.
+    Qiymatlar:
+    
+    ease – sekin boshlanadi, tezlashadi, sekin tugaydi
+    linear – bir xil tezlikda
+    ease-in – sekin boshlanadi
+    ease-out – sekin tugaydi
+    ease-in-out – sekin boshlanadi va tugaydi
+    Format:
+    css
+    Copy
+    Edit
+    animation-timing-function: ease-in-out;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-timing-function: ease-in;
+    }
+    8. animation-fill-mode
+    Animatsiyadan oldin yoki keyin element qanday ko‘rinishda bo‘lishini belgilaydi.
+    Qiymatlar:
+    
+    none – boshlanishidan oldin va tugagandan so‘ng o‘zgarish bo‘lmaydi
+    forwards – animatsiya tugagandan keyin oxirgi kadrda qoladi
+    backwards – animatsiyadan oldin birinchi kadrda ko‘rinadi
+    both – forwards va backwards ni birlashtiradi
+    Format:
+    css
+    Copy
+    Edit
+    animation-fill-mode: forwards;
+    👉 Masalan:
+    
+    css
+    Copy
+    Edit
+    div {
+      animation-fill-mode: both;
+    }
+    ✅ To‘liq misol:
+    css
+    Copy
+    Edit
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100px);
+      }
+    }
+    
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: gold;
+      animation-name: slide;
+      animation-duration: 2s;
+      animation-delay: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    Bu kodda <div> elementi 2 soniya davomida siljiydi, 0.5 soniyadan keyin boshlanadi, cheksiz takrorlanadi, alternatsiyali tarzda harakatlanadi va ease-in-out bilan yumshoq siljiydi.
+    
+    Savollaring bo‘lsa, bemalol so‘ra! 😎</h1>
+</body>
+</html>
