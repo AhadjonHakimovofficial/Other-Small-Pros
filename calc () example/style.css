@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+p{
+    font-size: calc(16px + 1vw);
+}
+.box{
+    width: calc(100vw - 9vw);
+    height: 100vh;
+    border: 1px solid red;
+}
