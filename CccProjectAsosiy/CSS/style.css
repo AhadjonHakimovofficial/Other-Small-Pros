@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 200px;
+    font-family: sans-serif;
+}
+
+.contener {
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+div img{}
+
+.logo h1 {
+    font-size: 26px;
+}
+
+header {
+    padding: 30px 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;   
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #cf9292;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+
+.button1 {
+    padding: 12px 24px;
+    background-color: #e07c5b;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.asd {
+    height: 360px;
+    padding: 5px 62px;
+    display: flex;
+    margin-bottom: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.qwe {
+    width: 540px;
+    height: 355px;
+    font-size: 32px;
+    padding: 30px 0;
+
+}
+
+.qwe h1 {
+    margin-bottom: 30px;
+    color: #3D3D3F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.qwe button {
+    padding: 12px 24px;
+
+}
+
+
+.zxc {
+    height: 300px;
+    padding: 5px 62px;
+    justify-content: center;
+
+}
+
+
+
+.zxc h1 {
+    font-size: 25px;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.vbn {
+    width: 100%;
+    height: 240px;
+    border: 2px solid #ebebeba6;
+    border-radius: 17px;
+    display: flex;
+    gap: 100px;
+    padding: 35px 80px;
+
+
+}
+
+.mnb {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.h {
+    height: 100%;
+    width: 3px;
+    background: #d80e0ecc;
+}
+/* homewor2 */
+
+.vrapper{
+    /* border: 1px solid red; */
+    /* width: 1300px; */
+    height: 100vh;
+    padding-top: 20px;
+    padding: 10px;
+}
+.textdiv > h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #3D3D3F;
+    font-size: 40px;
+}
+.textdiv{
+    /* border: 1px solid red; */
+}
+.cardvrap{
+    /* border: 1px solid blue; */
+    margin-top:20px ;
+    height: 400px;
+    /* padding: 10px 0 10px 10px; */
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    padding-left: 13px;
+
+}
+.card{
+    /* border: 1px solid green; */
+    height: 370px;
+    width: 200px;
+    padding: 5px;
+}
+.cardimg{
+    /* border: 1px solid rgb(197, 142, 24); */
+    height: 60%;
+    width: 190px;
+    
+}
+img{
+    width: 180px;
+}
+.cardtext{
+    /* border: 1px solid red; */
+    height: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #3d3d3d;
+}
+.cardtext > h6{
+    color:#808080;
+    /* padding-top: 10px; */
+}
+.cardtext > img{
+    width: 25px;
+    height: 25px;
+    
+}
+/*  HOMEWORK 2 2 QISM  */
+.vrapper2{
+    /* border: 1px solid red; */
+    height: 100vh;
+    padding: 10px;
+}
+.formdiv    {
+    text-align: center;
+    font-family: sans-serif;
+    color: #3D3D3F;
+    font-size: 40px;
+    font-weight: bold;
+    /* border: 1px solid blue; */
+
+}
+.form{
+    /* border: 1px solid green; */
+    height: 270px;
+    margin-top: 20px;
+    display: flex;
+    /* padding: 30px; */
+}
+.fleft{
+    /* background-color: yellow; */
+    width:50%;
+    height: 250px;
+    padding: 50px;
+}
+.fright{
+    /* background-color: rgb(11, 113, 180); */
+    width:50%;
+    height: 250px;
+    padding: 50px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+}
+.label{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.ffoot{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 200px ;
+    padding: 40px;
+
+}
+.wr{
+    text-align: left;
+    font-family: sans-serif;
+    color: #3D3D3F;
+    border: none;
+    font-size: 20px;
+    /* font-weight: bold; */
+   
+
+}
