@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_vrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+
+}
+.grids{
+    color: aliceblue;
+    background-color: rgb(83, 131, 12);
+}
+/* vappers */
+.wrapper{
+    width: 250px;
+    display: grid;
+}
+.wrapper{
+    display: grid;
+    width: 250px;
+    gap: 10px;
+}
+.wrapper{
+    display: grid;
+    width: 250px;
+    gap: 5px;
+}
+.wrapper{
+    display: grid;
+
+    width: 250px;
+    gap: 5px;
+}
+.wrapper{
+    display: grid;
+    width: 250px;
+    gap: 5px;
+}
+.wrapper{
+    display: grid;
+    width: 250px;
+    gap: 5px;
+}
+/* /vappers */
